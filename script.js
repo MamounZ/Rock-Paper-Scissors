@@ -43,8 +43,6 @@ function playRound(){
 }
 
 function playGame(){
-	console.log(humanScore);
-	console.log(computerScore);
 	for(let i = 0; i < 5; i++)
 		playRound()
 	if (humanScore > computerScore)
@@ -53,8 +51,6 @@ function playGame(){
 		console.log("computer wins");
 	else
 		console.log("tie")
-	console.log(humanScore);
-	console.log(computerScore);
 }
 
 playGame();
